@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+<div class="container">
+
+      <% @listings.each do |listing| %>
+     <div class="card" style="width: 300px;">
+  <img class="card-img-top object-fit-fill" style="height: 200px" src="<%= listing.image_url %>" alt="Card image cap">
+  <div class="card-body">
+    <h4> <%= listing.title %> </h4>
+    <p class="card-text"><%= listing.content %></p>
+  </div>
+</div>
+        <% end %>
+=======
 <div class="container d-flex flex-wrap align-items-center bg-white gap-3 justify-content-center">
 <h1 class="py-5 w-100 text-center ">Available friends</h1>
 
@@ -14,4 +27,5 @@
       </div>
     </div>
   <% end %>
+>>>>>>> 56a960c4cd5851fa781bc1a0378c8d4be5a18125
 </div>

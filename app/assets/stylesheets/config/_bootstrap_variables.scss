@@ -11,11 +11,19 @@ $body-bg:                $light-gray;
 $font-size-base:         1rem;
 
 // Colors
+<<<<<<< HEAD
+$body-color: $white;
+$primary:    $blue;
+$success:    $green;
+$info:       $yellow;
+$danger:     $fire;
+=======
 $body-color: $dark;
 $primary:    $blue;
 $success:    $green;
 $info:       $yellow;
 $danger:     $red;
+>>>>>>> 56a960c4cd5851fa781bc1a0378c8d4be5a18125
 $warning:    $pinkish;
 
 // Buttons & inputs' radius
